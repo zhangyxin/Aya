@@ -5,8 +5,11 @@
     "permissions": [
         "storage",
         "declarativeContent",
-        "activeTab"
+        "activeTab",
+        "http://*/*",
+        "https://*/*"
     ],
+    "devtools_page": "index.html",
     "background": {
         "scripts": [
             "background.js"
